@@ -56,7 +56,7 @@ int main()
         pthread_t th1;
         pthread_t th2;
         pthread_t th3;
-
+	
         pthread_create(&th1, NULL, thread1, NULL);
         pthread_create(&th2, NULL, thread2, NULL);
         pthread_create(&th3,NULL, thread3,NULL);
